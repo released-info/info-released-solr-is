@@ -1,11 +1,6 @@
 /* path should be set to assets in main domain folder */
 @import url('https://released.info/assets/css/technology.css');
 
-
-/* ----------------- */
-/* CHANGE THEME HERE  JAVA */
-/* ----------------- */
-
 /* TOP SECTION BACKGROUND COLOR */
 .released-info {
   background-color: #ee5866 !important; /* change color */
