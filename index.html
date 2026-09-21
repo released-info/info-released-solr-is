@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1757809450-->
+<!--timestamp=1790025384-->
 
 <head>
   <meta charset="UTF-8">
@@ -12,25 +12,25 @@
           crossorigin="anonymous"></script>
   
   <title>
-    Is Apache Solr 10.0 Released?
+    Is Apache Solr 10.1 Released?
   </title>
   <link rel="icon" href="https://released.info/assets/img/technologies/solr/solr.ico" type="image/svg+xml">
-  <meta name="description" content="Is Apache Solr 10.0 Released?">
+  <meta name="description" content="Is Apache Solr 10.1 Released?">
   <meta name="keywords" content="apache, solr, release, date, when, nosql">
-  <meta name=”robots” content="index, follow">
+  <meta name="robots" content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.solr.released.info" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Is Apache Solr 10.0 Released?" />
-  <meta property="og:description" content="Apache Solr 10.0 is not released. Still waiting! #released.info" />
+  <meta property="og:title" content="Is Apache Solr 10.1 Released?" />
+  <meta property="og:description" content="Apache Solr 10.1 is not released. Still waiting! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/solr/solr-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
-  <meta name="twitter:title" content="Is Apache Solr 10.0 Released?" />
-  <meta name="twitter:description" content="Apache Solr 10.0 is not released. Still waiting! #released.info" />
+  <meta name="twitter:title" content="Is Apache Solr 10.1 Released?" />
+  <meta name="twitter:description" content="Apache Solr 10.1 is not released. Still waiting! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/solr/solr-logo.png" />
 
   <meta name="url" content="https://is.solr.released.info" />
@@ -72,13 +72,13 @@
           </li>
         </ul>
         <h2>
-          Is Apache Solr 10.0 Released?
+          Is Apache Solr 10.1 Released?
         </h2>
         <div class="row">
           <div class="col-lg-8">
 
             <div id="logo">
-              <span role="img" aria-label="${configuration.logoAlt}"
+              <span role="img" aria-label="Apache Solr logo"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/solr/solr-logo.png&#39;);">
               </span>
             </div>
@@ -87,6 +87,7 @@
 
             
             
+            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
             <span>
               <div class="white-box" id="not-yet">
                 Not Yet
@@ -101,10 +102,14 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              There is <span class="btn-primary">no clear information</span> about release of Apache Solr 10.0
+              There is <span class="btn-primary">no announced release date</span> for Apache Solr 10.1
             </h3>
           </div>
-          
+          <div class="col-lg-8">
+            <h4 id="highlightTextDescription2">
+              Apache Solr 10.0.0 has been released on 3rd March 2026
+            </h4>
+          </div>
         </div>
         <div class="text-center">
           <a class="share-twitter" target="_blank">
@@ -125,19 +130,19 @@
 
             <ul>
               <li>
-                Alternate SolrJ APIs without using NamedList/SimpleOrderedMap/Map
+                Java 21 minimum, powered by Apache Lucene 10.3
               </li>
             </ul>
 
             <ul>
               <li>
-                New Cluster API
+                Scalar and binary quantized dense vectors
               </li>
             </ul>
 
             <ul>
               <li>
-                New Remote Call API
+                cuVS-Lucene codec for GPU vector search
               </li>
             </ul>
 
@@ -145,23 +150,28 @@
           <div class="col-md-5">
             <ul>
               <li>
-                Multi-threaded search 
+                Jetty 12 upgrade with Jakarta EE 10
               </li>
             </ul>
             <ul>
               <li>
-                Advanced Query parser and supporting lucene filters
+                ZooKeeper access via Apache Curator
+              </li>
+            </ul>
+            <ul>
+              <li>
+                OpenTelemetry tracing replaces OpenTracing
               </li>
             </ul>
           </div>
         </div>
         <div class="text-center">
-          <a target="_blank" href="https://cwiki.apache.org/confluence/display/SOLR/Roadmap" class="btn btn-primary btn-lg">Read more</a>
+          <a target="_blank" href="https://solr.apache.org/news.html#apache-solrtm-1000-available" class="btn btn-primary btn-lg">Read more</a>
         </div>
       </div>
       <div class="logo-container">
-        <span role="img" aria-label="${configuration.logoAlt2}"
-          style="background-image: url(&#39;https://released.info/assets/img/technologies/cassandra/cassandra-logo2.png&#39;);">
+        <span role="img" aria-label="Apache Solr logo"
+          style="background-image: url(&#39;https://released.info/assets/img/technologies/solr/solr-logo2.png&#39;);">
         </span>
       </div>
     </section>
@@ -177,7 +187,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Mastering Apache Solr 7.x"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/solr/book-Mastering-Apache-Solr-7-x.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/178883738X?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=0c77f5609fd23de0b4e230e7065ab3b5&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -191,7 +201,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Solr in Action"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/solr/book-Solr-in-Action.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/1617210.021?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=b7475b986c7eb8a5b5d069f1afd9fb7d&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -205,7 +215,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Solr Cookbook"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/solr/book-Solr-Cookbook.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/1783553154?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=0faa5eb8ed43d33134f15e8124f7552a&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -219,7 +229,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Apache Solr Essentials"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/solr/book-Apache-Solr-Essentials.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/1784399647?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=fb3e054385b3674d3cc680a5b58c4e95&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -233,7 +243,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Mastering Apache Solr"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/solr/book-Mastering-Apache-Solr.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/10.02784509?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=ed1342dfea3b210.022b73ada1aff6047&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -247,7 +257,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Instant Apache Solr for Indexing Data How-to"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/solr/book-Instant-Apache-Solr-for-Indexing-Data-How-to.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/dp/1782164847?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=ab99fc5adc39bf34f4bf35f38ea3d171&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -336,7 +346,7 @@
     where it evolved for two years
     and was donated to the Apache Software Foundation. The software underwent constant evolution to be where it is
     today.
-    We are currently on the 8.8.2 version, released on the 12th of April of the present year of 2021. Solr is expected
+    We are currently on the 10.0.0 version, released on 3rd March 2026 (the 9.x line ended with 9.10.1 on 20th January 2026). Solr is expected
     to develop new updates
     and content, so it is safe to think support and feature development will continue for years to come.
   </div>
